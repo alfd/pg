@@ -10,8 +10,8 @@ window.CONFIG = {
       ],
       key: 'KeyY',
       icon: 'youtube',
-      url: 'https://youtube.com',
-      normalisedURL: 'youtube.com',
+      url: 'http://sju.tianshidai.com/',
+      normalisedURL: 'sju.tianshidai.com',
       commands: {
         go: {
           template: 'https://youtu.be/{$}',
