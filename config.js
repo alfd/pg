@@ -1,3 +1,4 @@
+
 window.CONFIG = {
   macros: [
     {
@@ -616,6 +617,26 @@ window.CONFIG = {
     }
   ],
   engines: {
+    bing: {
+      name: 'Bing',
+      bgColor: {
+        type: 'gradient',
+        gradientType: 'linear',
+        colors: ['#3ab0f1', '#2351dd', '#40d1da']
+      },
+      textColor: '#e8e8e8',
+      types: {
+        query: {
+          template: 'https://www.bing.com/search?q={$}'
+        },
+        calculator: {
+          template: 'https://www.bing.com/search?q={@}'
+        },
+        currency: {
+          template: 'https://www.bing.com/search?q={@}'
+        }
+      }
+    },
     google: {
       name: 'Google',
       bgColor: {
@@ -690,26 +711,6 @@ window.CONFIG = {
         },
         currency: {
           template: 'https://www.qwant.com/?q={@}'
-        }
-      }
-    },
-    bing: {
-      name: 'Bing',
-      bgColor: {
-        type: 'gradient',
-        gradientType: 'linear',
-        colors: ['#3ab0f1', '#2351dd', '#40d1da']
-      },
-      textColor: '#e8e8e8',
-      types: {
-        query: {
-          template: 'https://www.bing.com/search?q={$}'
-        },
-        calculator: {
-          template: 'https://www.bing.com/search?q={@}'
-        },
-        currency: {
-          template: 'https://www.bing.com/search?q={@}'
         }
       }
     },
