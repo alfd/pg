@@ -10,7 +10,7 @@
     <script>
       const settings = JSON.parse(localStorage.getItem('settings'))
       if (settings) {
-        const colorScheme = settings.appearance.colorScheme === 'auto'
+        const colorScheme = settings.appearance.colorScheme === 'dark'
           ? window.matchMedia("(prefers-color-scheme: dark)").matches
             ? 'dark'
             : 'light'
