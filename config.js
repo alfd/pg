@@ -29,6 +29,34 @@ window.CONFIG = {
       textColor: '#212121',
       pinned: true
     },
+      category: 'Entertainment',
+      name: 'Rollercoin',
+      triggers: [
+        'y',
+        'yt',
+        'youtube',
+      ],
+      key: 'KeyR',
+      icon: 'roller',
+      url: 'http://rollercoin.com//',
+      normalisedURL: 'rollercoin.com',
+      commands: {
+        go: {
+          template: 'http://rollercoin.com/{$}',
+          description: 'go to video'
+        },
+        search: {
+          template: '{@}/results?search_query={$}'
+        }
+      },
+      bgColor: {
+        type: 'gradient',
+        gradientType: 'linear',
+        colors: ['#e87922', '#ffbe25'],
+      },
+      textColor: '#212121',
+      pinned: true
+    },
     {
       category: 'Communication',
       name: 'Telegram',
