@@ -11,8 +11,8 @@ window.CONFIG = {
       ],
       key: 'KeyY',
       icon: 'youtube',
-      url: 'http://sju.tianshidai.com/',
-      normalisedURL: 'sju.tianshidai.com',
+      url: 'http://zhuijuba.tv/',
+      normalisedURL: 'zhuijuba.tv',
       commands: {
         go: {
           template: 'https://youtu.be/{$}',
